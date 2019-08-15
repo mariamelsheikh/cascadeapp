@@ -42,13 +42,14 @@ The key variables that need to be included in the uploaded dataset are:
 5. **"svr"** -> dichotomous variable 0 = didn't achieve viral suppression, 1 = achieved viral suppression  
 6. **"retainedincare_hcv"** -> dichotomous variable 0 = wasn't retained in care, 1 = was retained in care  
 7. **"reinfection"** -> dichotomous variable 0 = didn't get re-infected, 1 = got re-infected  
-8. **"date_rna_test"** -> date variable, the date of conducting HCV RNA test (if the person didn't do the test = NA)  
-9. **"date_rna_posresult"** -> date variable, the date of receiving the positive HCV RNA result (if the person didn't do the test or received a negative result = NA)  
-10. **"date_linkagetocare_hcv"** -> date variable, the date of getting linked to care (if the person didn't get linked to care or had an NA previously = NA)  
-11. **"date_tx_ini_hcv"** -> date variable, the date of starting HCV treatment (if the person didn't start treatment or had an NA previously = NA)   
-12. **"date_tx_comp_hcv"** -> date variable, the date of completing HCV treatment (if the person didn't complete treatment or had an NA previously = NA)  
-13. **"date_svr"** -> date variable, the date of achieving viral suppression (if the person didn't achieve viral suppression or had an NA previously = NA)  
-14. **"reinfection_date"** -> date variable, the date of getting re-infection (if the person didn't get re-infected or had an NA previously = NA)  
+8. **"date_ab_ag_test"** -> date variable, the date of conducting Ab HCV test (if the person didn't do the test = NA)
+9. **"date_rna_test"** -> date variable, the date of conducting HCV RNA test (if the person didn't do the test = NA)  
+10. **"date_rna_posresult"** -> date variable, the date of receiving the positive HCV RNA result (if the person didn't do the test or received a negative result = NA)  
+11. **"date_linkagetocare_hcv"** -> date variable, the date of getting linked to care (if the person didn't get linked to care or had an NA previously = NA)  
+12. **"date_tx_ini_hcv"** -> date variable, the date of starting HCV treatment (if the person didn't start treatment or had an NA previously = NA)   
+13. **"date_tx_comp_hcv"** -> date variable, the date of completing HCV treatment (if the person didn't complete treatment or had an NA previously = NA)  
+14. **"date_svr"** -> date variable, the date of achieving viral suppression (if the person didn't achieve viral suppression or had an NA previously = NA)  
+15. **"reinfection_date"** -> date variable, the date of getting re-infection (if the person didn't get re-infected or had an NA previously = NA)  
 
 
 
