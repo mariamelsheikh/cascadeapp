@@ -16,6 +16,8 @@ For HIV cascade, if the estimated number of people living with HIV (PLHIV) is kn
 
 For HCV cascade, if the number of Ab tests, results and RNA tests are known, the user will have the option to add them and generate the cascade results as a percentage of Ab tests conduted (in which Ab tests would be 100%) otherwise, the cascade results will be as a percentage of those diagnosed (HCV+, those with positive RNA tests).  
 
+The user has the option to upload multiple datasets for HIV which will complied into one dataset. Each output will be generated for a complied dataset of all the uploaded datasets for HIV. This is applicable to the HCV data as well.
+
 ### HIV data  
 
 The key variables that need to be included in the uploaded dataset are:  
