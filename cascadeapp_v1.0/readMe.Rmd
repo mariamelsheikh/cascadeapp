@@ -1,0 +1,59 @@
+---
+title: "readMe"
+output: html_document
+---
+
+## Introduction
+
+This web app generates HIV or/and HCV treatment and care cascade analysis from individual-level data.
+The user is able to upload individual-level data for their patients in the specified formate below, and three output results will be generated:  
+
+1. Cascade table with the total number of patients in each step of the cascade and their percentage
+2. Table summarizing the median and mean of time between different steps on the cascade
+3. Cascade results plotted in a bar graph.
+
+For HIV cascade, if the estimated number of people living with HIV (PLHIV) is known, the user will have the option to add it and generate the cascade results as a percentage of PLHIV (in which PLHIV would be 100%) otherwise, the cascade results will be as a percentage of those diagnosed (HIV+).  
+
+For HCV cascade, if the number of Ab tests, results and RNA tests are known, the user will have the option to add them and generate the cascade results as a percentage of Ab tests conduted (in which Ab tests would be 100%) otherwise, the cascade results will be as a percentage of those diagnosed (HCV+, those with positive RNA tests).  
+
+### HIV data  
+
+The key variables that need to be included in the uploaded dataset are:  
+
+1. **"hiv_posresult"** -> dichotomous variable 0 = HIV -ve result, 1 = HIV +ve result  
+2. **"linkagetocare_hiv"** -> dichotomous variable 0 = wasn't linked to care, 1 = was linked to care  
+3. **"art_ini"** -> dichotomous variable 0 = didn't start ART, 1 = started ART  
+4. **"vl_sup"** -> dichotomous variable 0 = didn't achieve viral suppression, 1 = achieved viral suppression  
+5. **"retained_care_hiv"** -> dichotomous variable 0 = wasn't retained in care, 1 = was retained in care  
+6. **"date_hiv_test"** -> date variable, the date of conducting HIV test (if the person didn't do the test = NA)  
+7. **"date_hiv_posresult"** -> date variable, the date of receiving the positive HIV result (if the person didn't do the test or received a negative result = NA)   
+8. **"date_linkagetocare_hiv"** -> date variable, the date of getting linked to care (if the person didn't get linked to care or had an NA previously = NA)  
+9. **"date_art_ini"** -> date variable, the date of starting ART (if the person didn't start ART or had an NA previously = NA)  
+10. **"date_vl_sup"** -> date variable, the date of achieving viral suppression (if the person didn't achieve viral suppression or had an NA previously = NA)  
+
+### HCV data  
+
+The key variables that need to be included in the uploaded dataset are:  
+
+1. **"rna_posresult"** -> dichotomous variable 0 = HCV RNA -ve result, 1 = HCV RNA +ve result  
+2. **"linkagetocare_hcv"** -> dichotomous variable 0 = wasn't linked to care, 1 = was linked to care  
+3. **"tx_ini_hcv"** -> dichotomous variable 0 = didn't start HCV treatment, 1 = started HCV treatment  
+4. **"tx_comp_hcv"** -> dichotomous variable 0 = didn't complete HCV treatment, 1 = completed HCV treatment  
+5. **"svr"** -> dichotomous variable 0 = didn't achieve viral suppression, 1 = achieved viral suppression  
+6. **"retainedincare_hcv"** -> dichotomous variable 0 = wasn't retained in care, 1 = was retained in care  
+7. **"reinfection"** -> dichotomous variable 0 = didn't get re-infected, 1 = got re-infected  
+8. **"date_ab_ag_test"** -> date variable, the date of conducting Ab HCV test (if the person didn't do the test = NA)
+9. **"date_ab_ag_posresult"** -> date variable, the date of receiving the positive Ab HCV result (if the person didn't do the test or received a negative result = NA)
+10. **"date_rna_test"** -> date variable, the date of conducting HCV RNA test (if the person didn't do the test = NA)  
+11. **"date_rna_posresult"** -> date variable, the date of receiving the positive HCV RNA result (if the person didn't do the test or received a negative result = NA)  
+12. **"date_linkagetocare_hcv"** -> date variable, the date of getting linked to care (if the person didn't get linked to care or had an NA previously = NA)  
+13. **"date_tx_ini_hcv"** -> date variable, the date of starting HCV treatment (if the person didn't start treatment or had an NA previously = NA)   
+14. **"date_tx_comp_hcv"** -> date variable, the date of completing HCV treatment (if the person didn't complete treatment or had an NA previously = NA)  
+15. **"date_svr"** -> date variable, the date of achieving viral suppression (if the person didn't achieve viral suppression or had an NA previously = NA)  
+16. **"reinfection_date"** -> date variable, the date of getting re-infection (if the person didn't get re-infected or had an NA previously = NA)  
+
+
+
+
+
+
