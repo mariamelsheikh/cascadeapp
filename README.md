@@ -14,3 +14,5 @@ can be used for version 1.0
 
 This work was done as part of my practicum with Dr. Marina Klein at 
 Centre for Outcomes Research and Evaluation, Research Institute of the McGill University Health Center.
+
+Special thanks to Leo Wong for his help with the code and to Placide Nsengiyumva for his discussions which helped in improving the app and the functionality of the app.
