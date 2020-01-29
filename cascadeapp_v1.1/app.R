@@ -20,7 +20,7 @@ ui <- dashboardPage(
     #Sidebar contents (tabs)
     dashboardSidebar(width = 170,
         sidebarMenu(
-            menuItem("Introduction",tabName = "intro",icon=icon("book-open")),
+            menuItem("Intro",tabName = "intro",icon=icon("book-open")),
             menuItem("Code", tabName = "code", icon = icon("code")),
             menuItem("HIV Cascade", tabName = "hiv", icon=icon("layer-group")),
             menuItem("HCV Cascade", tabName = "hcv", icon=icon("signal"))
